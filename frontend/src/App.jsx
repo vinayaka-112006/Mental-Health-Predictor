@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 
-const API_URL = 'http://127.0.0.1:8000/predict'
+const API_URL = 'https://mental-health-predictor-rjdu.onrender.com'
 const initialValues = { age: '', gender: '', country: '', academic_level: '', most_used_platform: '', purpose_of_use: '', avg_daily_usage_hours: '', daily_unlocks: '', study_hours: '', physical_activity_hours: '', sleep_hours_per_night: '', stress_level: '' }
 const platforms = ['Facebook', 'LinkedIn', 'Instagram', 'Snapchat', 'Twitter', 'YouTube', 'TikTok', 'LINE', 'KakaoTalk', 'VKontakte', 'WhatsApp', 'WeChat']
 const countries = ['India', 'USA', 'Canada', 'Australia', 'UK', 'Germany', 'Mexico', 'Turkey', 'France']
